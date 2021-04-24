@@ -1,4 +1,4 @@
-# Waf-Waf-Challenge-HTB
+# Waf Waf Challenge HTB
 
 <img src="img/hackthebox.png">
 
