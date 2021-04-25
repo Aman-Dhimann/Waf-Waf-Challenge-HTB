@@ -22,6 +22,8 @@ as, is, in, not, having
 The check is not case sensitive.
 So this looks like vulnerable to a SQL injection.
 
+# SQL Injection
+
 Checking what happens when we make a request with one of the words that are filtered by the waf:
 
 ```bash
@@ -65,6 +67,8 @@ Where we can see that we get a 200 and that there are still 149 response bytes.
 Now we will copy the request to a file putting ```*``` where we want the payload to be loaded.
 
 <img src="img/petition.png">
+
+# Blind SQL Injection
 
 To obtain information in this case we will use a Blind SQL Injection and we will execute the following ```sqlmap``` command we should get the databases available:
 
